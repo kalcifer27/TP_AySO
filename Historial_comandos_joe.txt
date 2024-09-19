@@ -1,0 +1,91 @@
+ssh keygen
+ssh-keygen
+cat $HOME/.ssh/*.pub
+cd
+mkdir repogit
+cd repogit/
+git@github.com:kalcifer27/TP_AySO.git
+git clone git@github.com:kalcifer27/TP_AySO.git
+cd TP_AySO/
+pwd
+ls -l
+cat /etc/os-release
+whoami
+echo “Usuario=$(whoami)” > datos_usuario.txt 
+git add .
+git config --global user.email "monzonalanjoel@gmail.com"
+git config --global user.name "Joe"
+git commit -m "ADD: agregado 1er ejericcio sobre datos_usuarios.txt"
+git status
+head /proc/cpuinfo | grep "model name" >> datos_usuario.txt 
+git add .
+git commit -m "feat:Añadiendo información de CPU"
+git status
+grep -v nologin /etc/passwd > lista_ordenada
+sort lista_ordenada  -t":" -k7
+grep -v nologin /etc/passwd | sort -t":" -k7 > lista_ordenada
+git add .
+git commit -m "ADD: Listado de usuarios ordenada"
+man dump traffic
+man dump
+man
+man man
+apropos "dump traffic"
+apropos "dump traffic" > comando_dump_net
+echo apropos "dump traffic" >> comando_dump_net
+git add .
+git commit -m "ADD: Comando para capturar y analizar el trafico de red"
+cat << FIN >> README.md
+alumno: <joe>
+división: <314>
+turno: <noche>
+FIN
+
+git add .
+git commit -m "feat: añadiendo información de alumno a README.md"
+history -a
+history -a $HOME/.bash_history
+ls -la $HOME
+cp $HOME/.bash_history “Historial_comandos_<Joe>.txt
+cp $HOME/.bash_history “Historial_comandos_<Joe>.txt"
+git push
+vagrant ssh
+git push
+cd repogit/
+cd TP_AySO/
+git push
+rm README.md 
+cat << FIN >> README.md
+alumno: <joe>
+division: <314>
+turno: <noche>
+fin
+FIN
+
+git push
+git add .
+gitt commit 
+git commit
+cd repogit/
+cd TP_AySO/
+RM README.md 
+rm README.md 
+cat << FIN >> README.md
+nombre: "Joe"
+división: "314"
+turno: "Noche"
+FIN
+
+git add .
+git commit -m "feat: añadiendo información al archivo README.md"
+git status
+git push
+vagrant halt
+cd repogit/
+cd TP_AySO/
+history -a $HOME/.bash_history
+history -a $HOME/.bash_history      
+ls -la
+git add .
+git commit -m "add: copiando dentro del repositorio el archivo .bash_history con el nombre "historial_comandos"
+git status
