@@ -1,3 +1,3 @@
-# TP_AySOalumno: <joe>
-división: <314>
-turno: <noche>
+nombre: "Joe"
+división: "314"
+turno: "Noche"
